@@ -1,0 +1,7 @@
+body{
+    text-align: center;
+}
+.container div{
+    height: 100px;
+    width: 100px;
+}
