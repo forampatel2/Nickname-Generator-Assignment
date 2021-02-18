@@ -24,7 +24,7 @@ function generateRandBtn(){
 function allNamesOut(){
      let divStr = " ";
      for (let i = 0; i < nickname.length; i++) {
-       divStr += firstNameEl.value + " " + nickname[i] + " " + lastNameEl.value;
+       divStr += firstNameEl.value + " " + nickname[i] + " " + lastNameEl.value +"<br>";
     }
      resultsDivEl.innerHTML = divStr;
 }
